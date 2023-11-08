@@ -1,0 +1,24 @@
+#about .contenu h1{
+    animation: couleur 3s infinite linear;
+}
+
+@keyframes couleur {
+    from{
+        color: #E92E00;
+    }
+    to{
+        color: #FF8F00;
+    }
+}
+
+#about .contenu button{
+    font-weight: bold;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    border: 3px dashed transparent;
+    transition: 0.5s;
+    border: 3px dashed #000;
+    background-color: #ccc;
+}
